@@ -1,0 +1,38 @@
+{
+  "name": "ews-a-b-website",
+  "version": "1.0.0",
+  "description": "EWS Coursework 2 A/B testing and analysis",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE.ENV=production node ./dist/server.generated.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swatt13/EWS-A-B-Website.git"
+  },
+  "author": "Stefan Watt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swatt13/EWS-A-B-Website/issues"
+  },
+  "homepage": "https://github.com/swatt13/EWS-A-B-Website#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "mongoose": "^5.11.19",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  }
+}

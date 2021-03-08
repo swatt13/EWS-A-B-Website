@@ -1,0 +1,11 @@
+{
+  "presents":[
+    ["@babel/preet-env",
+    {
+      "targets":{
+        "node":"current"
+      }
+      }
+    ],
+  ],
+}
