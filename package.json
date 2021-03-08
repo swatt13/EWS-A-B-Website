@@ -2,6 +2,9 @@
   "name": "ews-a-b-website",
   "version": "1.0.0",
   "description": "EWS Coursework 2 A/B testing and analysis",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "index.js",
   "scripts": {
     "development": "nodemon",
